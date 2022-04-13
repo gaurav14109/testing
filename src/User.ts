@@ -20,7 +20,7 @@ export class User implements Mappable {
     }
     markerContent(): string {
 
-        return `Hi I am ${this.name}`
+        return `Hi I Was ${this.name}`
 
     }
 }
