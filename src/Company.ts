@@ -9,6 +9,7 @@ export class Company implements Mappable{ //optional
   }
   color:string='black'
   constructor() {
+    console.log('Hi')
     this.companyName = faker.company.companyName();
     this.catchPhrase = faker.company.catchPhrase();
     this.location = {
