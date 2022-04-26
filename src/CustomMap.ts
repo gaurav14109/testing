@@ -16,7 +16,7 @@ export class CustomMap{
     //No direct access by other
  
     constructor(){
-        console.log('hii')
+        console.log('hiii')
         this.googleMap = new google
         .maps
         .Map(document.getElementById("map"), {
