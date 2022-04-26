@@ -11,10 +11,12 @@ export interface Mappable{
  color:string,
 }
 export class CustomMap{
+    
     private googleMap : google.maps.Map;
     //No direct access by other
  
     constructor(){
+        console.log('hi')
         this.googleMap = new google
         .maps
         .Map(document.getElementById("map"), {
