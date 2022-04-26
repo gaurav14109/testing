@@ -11,6 +11,7 @@ export interface Mappable{
  color:string,
 }
 export class CustomMap{
+    consolele.log('hi')
     private googleMap : google.maps.Map;
     //No direct access by other
  
